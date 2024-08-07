@@ -13,7 +13,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "cesium": "1.93",
+    "cesium": "1.93.0",
+    "core-js": "3.8.3",
+    "gsap": "^3.12.5",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
