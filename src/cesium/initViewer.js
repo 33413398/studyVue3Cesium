@@ -40,9 +40,7 @@ export default function initViewer() {
   })
   // 隐藏logo
   viewer.cesiumWidget.creditContainer.style.display = 'none'
-  // 添加3D建筑
-  let tiles3d = new Cesium.createOsmBuildings()
-  const osmBuildings = viewer.scene.primitives.add(tiles3d)
+
   // 广州塔
   const postion = Cesium.Cartesian3.fromDegrees(
     // 经度
